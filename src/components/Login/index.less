@@ -1,0 +1,33 @@
+@import '../../stylesheets/default-color.less';
+#login-wrap{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../../static/images/background.jpg) no-repeat left center;
+  background-size: 100% 100%;
+  .login-form{
+    width: 400px;
+    height: 350px;
+    padding-top: 80px;
+    .user-input{
+      width: 400px;
+      height: 32px;
+      margin-bottom: 20px;
+    }
+    .gray9{
+      color: @gray9;
+    }
+    .login-btn{
+      width: 400px;
+      height: 32px;
+      background: @origin;
+      border: none;
+      color: @gray3;
+      &:hover{
+        opacity: 0.8;
+      }
+    }
+  }
+}
